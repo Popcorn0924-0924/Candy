@@ -8,7 +8,7 @@ struct ChartView: View {
     var anglesAmount = [Angle]()
     var startDegree: Double = 0
     var process:Double=0
-    var chart = ["分類", "完成進度"]
+    var chart = ["分類", "candy bar"]
     @State private var selectChart: String = "分類"
     let roles = ["巧克力","軟糖","棉花糖","硬糖","果凍","鹹食"]
     init(candysData: CandyData) {
@@ -49,14 +49,14 @@ struct ChartView: View {
     var body: some View {
         NavigationView {
             VStack {
-//                Picker(selection: self.$selectChart, label: Text("請選擇統計項目：")) {
-//                    ForEach(self.chart, id: \.self) {
-//                        (text) in Text(text)
-//                    }
-//                }
-//                .labelsHidden()
-//                .pickerStyle(SegmentedPickerStyle())
-//                .padding(20)
+                Picker(selection: self.$selectChart, label: Text("請選擇統計項目：")) {
+                    ForEach(self.chart, id: \.self) {
+                     (text) in Text(text)
+                   }
+               }
+               .labelsHidden()
+               .pickerStyle(SegmentedPickerStyle())
+               .padding(20)
                 if self.selectChart == "分類" {
                     
                         VStack {
@@ -100,7 +100,7 @@ struct ChartView: View {
                     
                 }
                 
-                    else if self.selectChart == "candy 柱狀圖" {
+                    else if self.selectChart == "candy bar" {
                         VStack {
                             BarChartView(typeWidths: countType)
                                 .offset(y:80)
