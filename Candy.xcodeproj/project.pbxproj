@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572B0A2225677B05000A4F73 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B0A2125677B05000A4F73 /* PieChartView.swift */; };
+		572B0A2C25677CB5000A4F73 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B0A2B25677CB5000A4F73 /* AppView.swift */; };
+		572B0A3125677CE9000A4F73 /* CharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B0A3025677CE9000A4F73 /* CharView.swift */; };
+		572B0A3B256790B2000A4F73 /* animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B0A3A256790B2000A4F73 /* animate.swift */; };
+		572B0A642567ADD4000A4F73 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B0A632567ADD4000A4F73 /* BarChartView.swift */; };
+		572B0A6C2567B081000A4F73 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B0A6B2567B081000A4F73 /* BarChart.swift */; };
 		573E72AE256779930098BAAE /* CandyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72AD256779930098BAAE /* CandyApp.swift */; };
 		573E72B0256779930098BAAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72AF256779930098BAAE /* ContentView.swift */; };
 		573E72B2256779940098BAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573E72B1256779940098BAAE /* Assets.xcassets */; };
 		573E72B5256779940098BAAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573E72B4256779940098BAAE /* Preview Assets.xcassets */; };
 		573E72C0256779940098BAAE /* CandyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72BF256779940098BAAE /* CandyTests.swift */; };
 		573E72CB256779940098BAAE /* CandyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72CA256779940098BAAE /* CandyUITests.swift */; };
+		573E72DC25677A1F0098BAAE /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72DB25677A1E0098BAAE /* Candy.swift */; };
+		573E72E125677A260098BAAE /* CandyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72E025677A260098BAAE /* CandyData.swift */; };
+		573E72E625677A300098BAAE /* CandyEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72E525677A300098BAAE /* CandyEditor.swift */; };
+		573E72EB25677A330098BAAE /* CandyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72EA25677A330098BAAE /* CandyList.swift */; };
+		573E72F025677A360098BAAE /* CandyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72EF25677A360098BAAE /* CandyRow.swift */; };
+		573E72FA25677A3B0098BAAE /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72F925677A3B0098BAAE /* MultilineTextField.swift */; };
+		573E72FF25677A400098BAAE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E72FE25677A400098BAAE /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		572B0A2125677B05000A4F73 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		572B0A2B25677CB5000A4F73 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		572B0A3025677CE9000A4F73 /* CharView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharView.swift; sourceTree = "<group>"; };
+		572B0A3A256790B2000A4F73 /* animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animate.swift; sourceTree = "<group>"; };
+		572B0A51256793C0000A4F73 /* Oliver Blush Free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oliver Blush Free.ttf"; sourceTree = "<group>"; };
+		572B0A632567ADD4000A4F73 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		572B0A6B2567B081000A4F73 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 		573E72AA256779930098BAAE /* Candy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Candy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573E72AD256779930098BAAE /* CandyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyApp.swift; sourceTree = "<group>"; };
 		573E72AF256779930098BAAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +65,13 @@
 		573E72C6256779940098BAAE /* CandyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573E72CA256779940098BAAE /* CandyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyUITests.swift; sourceTree = "<group>"; };
 		573E72CC256779940098BAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573E72DB25677A1E0098BAAE /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		573E72E025677A260098BAAE /* CandyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyData.swift; sourceTree = "<group>"; };
+		573E72E525677A300098BAAE /* CandyEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyEditor.swift; sourceTree = "<group>"; };
+		573E72EA25677A330098BAAE /* CandyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyList.swift; sourceTree = "<group>"; };
+		573E72EF25677A360098BAAE /* CandyRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyRow.swift; sourceTree = "<group>"; };
+		573E72F925677A3B0098BAAE /* MultilineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		573E72FE25677A400098BAAE /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +123,23 @@
 			isa = PBXGroup;
 			children = (
 				573E72AD256779930098BAAE /* CandyApp.swift */,
+				572B0A3025677CE9000A4F73 /* CharView.swift */,
+				572B0A6B2567B081000A4F73 /* BarChart.swift */,
+				573E72FE25677A400098BAAE /* SearchBar.swift */,
 				573E72AF256779930098BAAE /* ContentView.swift */,
+				573E72DB25677A1E0098BAAE /* Candy.swift */,
 				573E72B1256779940098BAAE /* Assets.xcassets */,
+				573E72E025677A260098BAAE /* CandyData.swift */,
+				572B0A3A256790B2000A4F73 /* animate.swift */,
+				573E72E525677A300098BAAE /* CandyEditor.swift */,
+				572B0A632567ADD4000A4F73 /* BarChartView.swift */,
+				573E72F925677A3B0098BAAE /* MultilineTextField.swift */,
+				572B0A51256793C0000A4F73 /* Oliver Blush Free.ttf */,
+				572B0A2125677B05000A4F73 /* PieChartView.swift */,
+				573E72EF25677A360098BAAE /* CandyRow.swift */,
+				572B0A2B25677CB5000A4F73 /* AppView.swift */,
 				573E72B6256779940098BAAE /* Info.plist */,
+				573E72EA25677A330098BAAE /* CandyList.swift */,
 				573E72B3256779940098BAAE /* Preview Content */,
 			);
 			path = Candy;
@@ -259,8 +300,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572B0A6C2567B081000A4F73 /* BarChart.swift in Sources */,
 				573E72B0256779930098BAAE /* ContentView.swift in Sources */,
+				573E72F025677A360098BAAE /* CandyRow.swift in Sources */,
+				573E72EB25677A330098BAAE /* CandyList.swift in Sources */,
+				572B0A3125677CE9000A4F73 /* CharView.swift in Sources */,
+				573E72DC25677A1F0098BAAE /* Candy.swift in Sources */,
+				573E72E625677A300098BAAE /* CandyEditor.swift in Sources */,
+				572B0A3B256790B2000A4F73 /* animate.swift in Sources */,
+				573E72FA25677A3B0098BAAE /* MultilineTextField.swift in Sources */,
+				572B0A2225677B05000A4F73 /* PieChartView.swift in Sources */,
+				573E72FF25677A400098BAAE /* SearchBar.swift in Sources */,
+				572B0A2C25677CB5000A4F73 /* AppView.swift in Sources */,
 				573E72AE256779930098BAAE /* CandyApp.swift in Sources */,
+				573E72E125677A260098BAAE /* CandyData.swift in Sources */,
+				572B0A642567ADD4000A4F73 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
